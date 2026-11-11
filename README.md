@@ -254,5 +254,5 @@ python ../its-dp-fab-cicd-common/CICD/tools/deploy.py validate --repo .
 - [ ] Configurer les approbations sur les Environments ADO `fabric-ppr` et `fabric-prd`.
 - [ ] Vérifier le point V-01 (contenu de l'artefact CI) au premier run.
 - [ ] Faire passer `deploy.py validate` sans erreur, puis passer `inventory_status` à `validated` dans une PR revue.
-- [ ] Désactiver l'ancienne CD BDP Contact (groupe `Fabric-CD-Secrets`) une fois la nouvelle CD opérationnelle. Son stage ITG téléchargeait l'artefact d'un autre pipeline (`its-dp-fab-opendata-managed-CI`).
+- [ ] Désactiver l'ancienne CD BDP Contact (groupe `Fabric-CD-Secrets`) une fois la nouvelle CD opérationnelle.
 - [ ] Ajouter les workspaces BDP Contact et Framework DEV au registre du socle (`CICD/registry/known_guids.yml`), au prochain tag du socle.

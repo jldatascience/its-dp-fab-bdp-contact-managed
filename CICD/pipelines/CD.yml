@@ -1,8 +1,7 @@
 # CD.yml — its-dp-fab-bdp-contact-managed (BDP Contact)
 # Remplace l'ancienne CD BDP Contact (ITG -> PPR -> PRD enchaînés sans approbation, groupe de
 # variables Fabric-CD-Secrets, fabric-cicd 1.2.0, deployment/deploy.py avec workspaces,
-# capacités, lakehouses et SPN en dur ; son stage ITG téléchargeait par erreur l'artefact
-# its-dp-fab-opendata-managed-CI au lieu de its-dp-fab-contact-managed-CI).
+# capacités, lakehouses et SPN en dur).
 # Toute la logique est dans le template du socle commun (extends) : une seule
 # implémentation pour les 11 dépôts.
 #

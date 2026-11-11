@@ -54,9 +54,8 @@ dans le `CHANGELOG.md` de `its-dp-fab-cicd-common`, versionné par tag `vX.Y.Z`.
 - Types d'items, règles, `framework.items`, connexions Fabric, Variable Libraries, `guid_policy`
   (sandbox, `allowed`) et `data_dependencies`, après inventaire (scripts 01 à 04). L'ancien
   `deploy.py` déclarait un lakehouse `lkh_storage_<ENV>` par environnement : nom à vérifier.
-- Ancienne CD : son stage ITG téléchargeait l'artefact `its-dp-fab-opendata-managed-CI` (autre
-  pipeline) au lieu de `its-dp-fab-contact-managed-CI` ; ses workspaces ITG, PPR et PRD sont
-  cohérents avec la liste des workspaces. À désactiver une fois la nouvelle CD opérationnelle.
+- Ancienne CD : ses workspaces ITG, PPR et PRD sont cohérents avec la liste des workspaces ;
+  à désactiver une fois la nouvelle CD opérationnelle.
 - Organisation et service connection GitHub ; noms des 3 service connections ARM ITG, PPR et PRD
   (création prévue).
 - Nom et casse exacts du pipeline CI dans Azure DevOps (`its-dp-fab-contact-managed-CI`, sans
